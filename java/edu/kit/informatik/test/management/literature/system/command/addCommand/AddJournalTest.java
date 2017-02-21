@@ -42,8 +42,6 @@ public class AddJournalTest {
 
     @Test
     public void invalidTest1() throws Exception {
-        Terminal.addSingleLineOutputThatMatches("add journal TS A,Pub", Matchers.startsWith("Error, "));
-        Terminal.addSingleLineOutputThatMatches("add journal &%,Pub", Matchers.startsWith("Error, "));
         Terminal.addSingleLineOutputThatMatches("add journal ,", Matchers.startsWith("Error, "));
         Terminal.addSingleLineOutputThatIsExactly("quit", "Ok");
         LiteratureManagementSystem.main(NO_ARGS);
