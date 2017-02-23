@@ -1,8 +1,6 @@
 package edu.kit.informatik.test.management.literature.system.command.addCommand;
 
-import edu.kit.informatik.management.literature.LiteratureManagement;
 import edu.kit.informatik.management.literature.system.LiteratureManagementSystem;
-import edu.kit.informatik.management.literature.system.command.addCommand.AddAuthor;
 import edu.kit.informatik.terminal.Terminal;
 import org.hamcrest.Matchers;
 import org.junit.After;
