@@ -1,8 +1,6 @@
 package edu.kit.informatik.test.management.literature.system.command.literatureIndex;
 
-import edu.kit.informatik.management.literature.LiteratureManagement;
 import edu.kit.informatik.management.literature.system.LiteratureManagementSystem;
-import edu.kit.informatik.management.literature.system.command.literatureIndex.DirectPrintConference;
 import edu.kit.informatik.terminal.Terminal;
 import org.junit.After;
 import org.junit.Before;

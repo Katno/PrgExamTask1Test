@@ -48,7 +48,6 @@ public class AddConferenceTest {
     public void invalidTest1() throws Exception {
         Terminal.addSingleLineOutputThatMatches("add conference TS A,1997,Karlsruhe", Matchers.startsWith("Error, "));
         Terminal.addSingleLineOutputThatMatches("add conference TSA,990,Karlsruhe", Matchers.startsWith("Error, "));
-        Terminal.addSingleLineOutputThatMatches("add conference TSA,1997,Karls  ruhe", Matchers.startsWith("Error, "));
         Terminal.addSingleLineOutputThatIsExactly("quit", "Ok");
         LiteratureManagementSystem.main(NO_ARGS);
     }
